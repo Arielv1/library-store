@@ -1,0 +1,23 @@
+@import '../../../styles/colors.scss';
+
+.header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background: $MenuColor;
+    color: white;
+    height: 5%;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: flex-end;
+    a {
+        margin: 0 0.75%;
+        background: $MenuButton;
+           padding: 0.5%;
+        &:hover {
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.1s;
+        }
+    }
+}   
